@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-MC_VERSION="1.20.1"
+MC_VERSION="1.21.5"
 JAR_URL="https://api.papermc.io/v2/projects/paper/versions/${MC_VERSION}/builds/103/downloads/paper-${MC_VERSION}-103.jar"
 JAR_FILE="paper.jar"
 
