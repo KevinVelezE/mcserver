@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-MC_VERSION="1.20.1"
+MC_VERSION="1.21.5"
 JAR_URL="https://api.papermc.io/v2/projects/paper/versions/${MC_VERSION}/builds/103/downloads/paper-${MC_VERSION}-103.jar"
 JAR_FILE="paper.jar"
 
@@ -16,7 +16,7 @@ echo "eula=true" > eula.txt
 
 # Inicia ngrok en segundo plano
 echo "Iniciando ngrok..."
-ngrok config add-authtoken <TU_AUTHTOKEN_AQUI>
+ngrok config add-authtoken 2jyLerkSdBxERZiDDQto9fpAfUa_2kcvKmFM9Qa5PtKj84RGN
 nohup ngrok tcp 25565 --log=stdout > ngrok.log &
 
 # Esperar unos segundos para que ngrok levante
